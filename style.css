@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+  height: 965px;
+}
 body {
   background: url(https://cdn.wallpapersafari.com/12/58/oGCE2w.png);
 }
@@ -12,12 +16,14 @@ body {
   margin-right: 100px;
   margin-top: -10px;
   background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 40px 1px rgb(0, 0, 0);
   z-index: 9999;
 }
 #article-1 {
   color: black;
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: -300px;
   padding-right: -300px;
   margin-right: 900px;
@@ -26,6 +32,7 @@ body {
   left: 440px;
   top: 200px;
   background-color: white;
+  z-index: 2;
 }
 .article-1-title {
   position: relative;
@@ -36,4 +43,28 @@ body {
 }
 .article-1-h3 {
   font-size: 20px;
+}
+.article-1-p-align {
+  text-align: left;
+  position: relative;
+  left: 200px;
+  font-size: 20px;
+}
+.article-2-p-align {
+  text-align: left;
+  position: relative;
+  left: 200px;
+  font-size: 20px;
+}
+#div-background {
+  background-color: rgba(0, 0, 0, 0.849);
+  padding-top: 400px;
+  padding-bottom: 900px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: -50px;
+  margin-right: -50px;
+  position: relative;
+  bottom: 319px;
+  z-index: 1;
 }
