@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.header {
+  padding: 20px 0px 0px 40px;
+  box-shadow: 0px 0px 5px -1px black;
+}
+.header__title {
+  font-size: 40px;
+  color: rgb(32, 87, 32);
+}
+.header__link a {
+  position: relative;
+  left: 15%;
+  bottom: 30px;
+  padding: 0px 20px 0px 0px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+.header__link a:hover {
+  color: rgb(52, 131, 52);
+}
+.buttons {
+  display: flex;
+  float: right;
+  margin: -55px 50px 0px 0px;
+}
+.buttons a {
+  padding: 0px 20px 0px 0px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: black;
+}
+.signup {
+  border: 1px solid black;
+  padding: 3px 5px 3px 5px;
+  border-radius: 10px;
+  height: 10px;
+}
+.joinnow {
+  border: 1px solid black;
+  padding: 3px 5px 3px 5px;
+  border-radius: 10px;
+  height: 10px;
+  background-color: black;
+  color: white;
+}
+.signup:hover {
+  background-color: rgb(224, 224, 224);
+}
+.joinnow:hover {
+  background-color: rgb(61, 61, 61);
+}
+.container-1 {
+  background-color: rgb(178, 224, 178);
+  width: 1200px;
+  height: 140px;
+  margin: 4px 0px 0px 350px;
+}
+.container-1 p {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 50px;
+}
+.container-2 {
+  background-color: rgb(255, 234, 196);
+  width: 1200px;
+  height: 520px;
+  margin: 50px 0px 0px 350px;
+}
+.container-2 h2 {
+  position: relative;
+  left: 220px;
+  top: 100px;
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(16, 41, 16);
+  letter-spacing: 10px;
+}
+.container-2 p {
+  position: relative;
+  left: 200px;
+  top: 150px;
+  font-size: 20px;
+  text-align: center;
+  z-index: 1;
+  font-weight: 700;
+}
+.container-2 img {
+  width: 700px;
+  right: 90px;
+  position: relative;
+  bottom: 187px;
+  z-index: 0;
+}
+.container-3 {
+  background-color: rgb(255, 234, 196);
+  width: 1200px;
+  height: 520px;
+  margin: 50px 0px 0px 350px;
+}
+.container-3 h2 {
+  position: relative;
+  right: 270px;
+  top: 100px;
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(16, 41, 16);
+  letter-spacing: 10px;
+}
+.container-3 p {
+  position: relative;
+  right: 200px;
+  top: 150px;
+  font-size: 20px;
+  text-align: center;
+  z-index: 1;
+  font-weight: 700;
+}
+.container-3 img {
+  width: 680px;
+  position: relative;
+  left: 520px;
+  bottom: 184px;
+  z-index: 0;
+}
+footer {
+  margin: 100px 0px 0px 0px;
+  box-shadow: 0px 0px 5px 0px;
+  height: 0px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.top a {
+  width: 230px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: rgb(153, 153, 153);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  position: relative;
+  left: 90px;
+  top: 500px;
+}
+.top h2 {
+  padding: 20px 0px 0px 160px;
+  font-family: sans-serif;
+  position: relative;
+  top: 480px;
+}
+.top a:hover {
+  color: rgb(104, 104, 104);
+}
+.career {
+  position: relative;
+  left: 300px;
+  bottom: 327px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.career h2 {
+  position: relative;
+  left: 150px;
+  padding: 0px 0px 0px 0px;
+  font-family: sans-serif;
+}
+.career a {
+  width: 250px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: rgb(153, 153, 153);
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  position: relative;
+  left: 65px;
+  top: 500px;
+  margin: 0;
+}
+.career a:hover {
+  color: rgb(104, 104, 104);
+}
+.social-impact {
+  position: relative;
+  left: 600px;
+  bottom: 167px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.social-impact h2 {
+  position: relative;
+  left: 110px;
+  top: -6px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-family: sans-serif;
+}
+.social-impact a {
+  width: 250px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: rgb(153, 153, 153);
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  position: relative;
+  left: 65px;
+  top: 10px;
+  margin: 0;
+}
+.hr-1 {
+  width: auto;
+  position: relative;
+  bottom: 590px;
+  margin: 70px 0px 0px 0px;
+}
+.hr-2 {
+  position: relative;
+  bottom: 140px;
+  margin-left: 100px;
+  width: 1100px;
+}
+.icons {
+display: flex;
+position: relative;
+bottom: 560px;
+padding: 0px 0px 0px 30px;
+margin: 0;
+}
+.icons img {
+  width: 60px;
+}
